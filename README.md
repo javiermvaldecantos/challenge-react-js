@@ -14,7 +14,7 @@ Este proyecto representa una web app que muestra una lista de teléfonos
 
 En el código, el servidor está dentro de la carpeta `/server`.
 
-## Cómo ver el front end de la aplicación
+## Cómo ver el front end de la aplicación (Ejercicio 2)
 1. Abre un navegador web.
 2. Ir a la siguiente URL: `http://localhost:3000/`
 3. Aparecerá en el navegador la página 1 de la lista de modelos de teléfono. IMPORTANTE: Hay que asegurarse de que el servidor esté funcionando antes, si no es posible que la lista de teléfonos no aparezca.
