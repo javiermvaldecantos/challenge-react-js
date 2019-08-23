@@ -1,0 +1,15 @@
+.phone-list-paginator {
+    opacity: 1;
+
+    -webkit-transition: opacity 500ms;
+    transition: opacity 500ms;
+}
+
+.phone-list-paginator.hidden {
+    opacity: 0;
+}
+
+.phone-list-paginator--paginator {
+    margin: auto;
+    width: 175px;
+}

@@ -1,5 +1,6 @@
 [
     {
+        "id": "0001",
         "name": "iPhone 8",
         "brand": "Apple",
         "description": "Most expensive phone on the market. Get one quick!",
@@ -8,51 +9,57 @@
         "price": "1100€"
     },
     {
+        "id": "0002",
         "name": "OnePlus 7",
         "brand": "OnePlus",
         "description": "Great phone. Good camera, long battery life and reasonable price.",
         "color": "black",
-        "imageSrc": "https://images.app.goo.gl/LRu7nEqdMk3xoXpz6",
+        "imageSrc": "https://images-na.ssl-images-amazon.com/images/I/512xYZ5OjGL._SX425_.jpg",
         "price": "300€"
     },
     {
+        "id": "0003",
         "name": "Samsung Galaxy S10",
         "brand": "Samsung",
         "description": "Pretty good phone if it doesn\"t explode. Otherwise it starts burning and is not usable.",
         "color": "black",
-        "imageSrc": "https://images.app.goo.gl/5JYMPV2xg1MVCfTj9",
+        "imageSrc": "https://static.bhphoto.com/images/images500x500/samsung_sm_g973uzbaxaa_galaxy_s10_sm_g973u_128gb_1550829635_1456401.jpg",
         "price": "800€"
     },
     {
+        "id": "0004",
         "name": "Motorola Razr 2019",
         "brand": "Motorola",
         "description": "Askjdfn sd jfnsjdfs jsdfknsdfj sdjfnskdnf skdfnskj dfksdnfjsn fjdsnfkdjnskfn dfd.",
         "color": "black",
-        "imageSrc": "https://images.app.goo.gl/jekn6Wo6HDGNBY7V7",
+        "imageSrc": "https://www.nhatkycongnghe.com/wp-content/uploads/2019/04/ngam-bo-anh-dung-cua-smartphone-nap-gap-motorola-razr-2019-%E2%80%A2-techtimes-vietnam-1024x1024.jpg",
         "price": "900€"
     },
     {
+        "id": "0005",
         "name": "Xiaomi Mi Mix3",
         "brand": "Xiaomi",
         "description": "Kkjdsfheuir eiurnefd iidjndijdi dss sjds dfksjd jsdf jhsd fsjdfhs sdjfh sdjf sddsf dsfsd.",
         "color": "black",
-        "imageSrc": "https://images.app.goo.gl/BLQYQN2APb6HWCMk6",
+        "imageSrc": "https://manzanarota.com/wp-content/uploads/2019/08/xiaomi-mi-mix-3-pantalla-bateria-carga-camara-reparacion-manzana-rota.jpg",
         "price": "400€"
     },
     {
+        "id": "0006",
         "name": "Huawei P20 Pro",
         "brand": "Huawei",
         "description": "Ujsdfn dsjfns kdfje rkjw rekwjw kerfs kdfj ewjr wkejr wkj ksdj fksje krjw ekrjw kskd fks jd.",
         "color": "black",
-        "imageSrc": "https://images.app.goo.gl/VpXg4Za65CJ7Jdmg9",
+        "imageSrc": "https://manzanarota.com/wp-content/uploads/2019/07/huawei-p20-pro-pantalla-carga-bateria-camara-reparacion-manzana-rota.jpg",
         "price": "500€"
     },
     {
+        "id": "0007",
         "name": "LG G7 Plus",
         "brand": "LG",
         "description": "Pspdof sdfj sekrj ekj ykjfd gkdj fgkwje4 kjg dkdgjd kfjw ekr sfdkjs fkdj fksj ekrj ksjfd skjf dskfjs kfsj.",
         "color": "blue",
-        "imageSrc": "https://images.app.goo.gl/5Pa3srN3ZQwdLr288",
+        "imageSrc": "https://www.mymobilereviewer.com/wp-content/uploads/2019/07/LG-G7-THINQ-1024x1024.jpg",
         "price": "800€"
     }
 ]

@@ -1,0 +1,14 @@
+.phone-list-element {
+    margin-bottom: 30px;
+}
+
+.phone-list-element--image {
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .phone-list-element--image {
+        max-width: 200px;
+        margin: auto;
+    }
+}

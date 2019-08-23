@@ -1,0 +1,14 @@
+.phone-list {
+    opacity: 1;
+
+    -webkit-transition: opacity 500ms;
+    transition: opacity 500ms;
+}
+
+.phone-list.hidden {
+    opacity: 0;
+}
+
+.phone-list--element-wrapper.hidden {
+    display: none;
+}
