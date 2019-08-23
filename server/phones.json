@@ -1,0 +1,58 @@
+[
+    {
+        "name": "iPhone 8",
+        "brand": "Apple",
+        "description": "Most expensive phone on the market. Get one quick!",
+        "color": "silver",
+        "imageSrc": "https://d1eh9yux7w8iql.cloudfront.net/product_images/1562846905.56.jpg",
+        "price": "1100€"
+    },
+    {
+        "name": "OnePlus 7",
+        "brand": "OnePlus",
+        "description": "Great phone. Good camera, long battery life and reasonable price.",
+        "color": "black",
+        "imageSrc": "https://images.app.goo.gl/LRu7nEqdMk3xoXpz6",
+        "price": "300€"
+    },
+    {
+        "name": "Samsung Galaxy S10",
+        "brand": "Samsung",
+        "description": "Pretty good phone if it doesn\"t explode. Otherwise it starts burning and is not usable.",
+        "color": "black",
+        "imageSrc": "https://images.app.goo.gl/5JYMPV2xg1MVCfTj9",
+        "price": "800€"
+    },
+    {
+        "name": "Motorola Razr 2019",
+        "brand": "Motorola",
+        "description": "Askjdfn sd jfnsjdfs jsdfknsdfj sdjfnskdnf skdfnskj dfksdnfjsn fjdsnfkdjnskfn dfd.",
+        "color": "black",
+        "imageSrc": "https://images.app.goo.gl/jekn6Wo6HDGNBY7V7",
+        "price": "900€"
+    },
+    {
+        "name": "Xiaomi Mi Mix3",
+        "brand": "Xiaomi",
+        "description": "Kkjdsfheuir eiurnefd iidjndijdi dss sjds dfksjd jsdf jhsd fsjdfhs sdjfh sdjf sddsf dsfsd.",
+        "color": "black",
+        "imageSrc": "https://images.app.goo.gl/BLQYQN2APb6HWCMk6",
+        "price": "400€"
+    },
+    {
+        "name": "Huawei P20 Pro",
+        "brand": "Huawei",
+        "description": "Ujsdfn dsjfns kdfje rkjw rekwjw kerfs kdfj ewjr wkejr wkj ksdj fksje krjw ekrjw kskd fks jd.",
+        "color": "black",
+        "imageSrc": "https://images.app.goo.gl/VpXg4Za65CJ7Jdmg9",
+        "price": "500€"
+    },
+    {
+        "name": "LG G7 Plus",
+        "brand": "LG",
+        "description": "Pspdof sdfj sekrj ekj ykjfd gkdj fgkwje4 kjg dkdgjd kfjw ekr sfdkjs fkdj fksj ekrj ksjfd skjf dskfjs kfsj.",
+        "color": "blue",
+        "imageSrc": "https://images.app.goo.gl/5Pa3srN3ZQwdLr288",
+        "price": "800€"
+    }
+]
