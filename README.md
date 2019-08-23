@@ -1,68 +1,33 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto representa una web app que muestra una lista de teléfonos
 
-## Available Scripts
+## Cómo descargar y poner en funcionamiento la app
+1. Para clonar el repositorio, ejecuta `git clone https://github.com/javiermvaldecantos/challenge-react-js.git`
+2. Una vez tenemos el repositorio, entramos en la carpeta y ejecutamos `npm install` para instalar todas las dependencias necesarias
+3. Para poner en funcionamiento el servidor, abrimos una nueva ventana de terminal en la misma carpeta, y ejecutamos `npm run server`.
+4. Para poner en funcionamiento el front end, abrimos una nueva ventana de terminal en la misma carpeta, y ejecutamos `npm start`.
+5. Listo! la app debería funcionar. En la siguiente sección explico cómo ver el front end y la respuesta del servidor en un navegador (yo he usado Google Chrome).
 
-In the project directory, you can run:
+## Cómo ver la respuesta del servidor (Ejercicio 1)
+1. Abre un navegador web.
+2. Ir a la siguiente URL: `http://localhost:3001/api/phones`
+3. Aparecerá la respuesta del servidor en el navegador, que contiene una lista de modelos de teléfono en formato JSON.
 
-### `npm start`
+En el código, el servidor está dentro de la carpeta `/server`.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Cómo ver el front end de la aplicación
+1. Abre un navegador web.
+2. Ir a la siguiente URL: `http://localhost:3000/`
+3. Aparecerá en el navegador la página 1 de la lista de modelos de teléfono. IMPORTANTE: Hay que asegurarse de que el servidor esté funcionando antes, si no es posible que la lista de teléfonos no aparezca.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+En el código, la parte más relevante del front-end está dentro de la carpeta `/src`.
 
-### `npm test`
+## Comentarios sobre la aplicación
+1. Para los componentes he utilizado una nomenclatura similar a BEM.
+2. He utilizado Bootstrap para estilar los componentes. El modal que presenta los detalles de los modelos de teléfono también es de Bootstrap.
+3. He intentado modularizar la aplicación lo máximo posible, creando los archivos `/util/modal.js` para controlar los modals de bootstrap y `/services/phoneService.js` que contiene llamadas a la API. De esta manera si cambiásemos de API en el futuro sólo tendríamos que modificar ese archivo, por ejemplo.
+4. He optado por crear una sola action y un solo reducer en Redux, dado que esta aplicación es pequeña. En una aplicación más compleja habría creado más actions y reducers.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## Posibles mejoras no realizadas
+1. Incluir SASS para organizar el CSS.
+2. Incluir código para presentar un mensaje de error en caso de que la lista de teléfonos no se haya podido obtener de la API.
+3. Todos los bonus points de las instrucciones
