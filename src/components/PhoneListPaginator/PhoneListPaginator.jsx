@@ -1,8 +1,15 @@
+/**
+ * PhoneListPaginator
+ * 
+ * Paginación utilizada en la lista de modelos de teléfono.
+ * Permite ir alante y atrás en la lista, y además ir a una página concreta.
+ */
 import React from 'react';
 
 import './PhoneListPaginator.css';
 
 const PhoneListPaginator = ({ className, numberOfPages, currentPage, onGoToNextPage, onGoToPreviousPage, onGoToSpecificPage }) => {
+    // Construimos un array con el número de páginas de longitud. Luego iteraremos sobre él.
     let pages = [];
     for (let i = 1; i <= numberOfPages; i++) {
         pages.push(i);

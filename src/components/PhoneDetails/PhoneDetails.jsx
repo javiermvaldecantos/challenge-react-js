@@ -1,3 +1,7 @@
+/**
+ * Este componente presenta informacón detallada sobre un modelo de teléfono.
+ * Contiene la imagen, nombre, marca, descripción, color y precio.
+ */
 import React from 'react';
 
 import './PhoneDetails.css';

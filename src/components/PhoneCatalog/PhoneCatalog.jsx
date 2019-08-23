@@ -1,3 +1,6 @@
+/**
+ * Este es el contenedor de toda la app, y además contiene el título de la aplicación.
+ */
 import React from 'react';
 import PhoneListContainer from '../PhoneListContainer';
 import PhoneDetails from '../PhoneDetails';

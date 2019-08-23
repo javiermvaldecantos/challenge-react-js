@@ -1,4 +1,9 @@
+/**
+ * Spinner que se muestra mientras la lista de teléfonos está cargando.
+ */
 import React from "react";
+
+import './PhoneListSpinner.css';
 
 const PhoneListSpinner = ({ className }) => (
     <div className={'phone-list-spinner' + (className ? ' ' + className : '')}>

@@ -9,7 +9,12 @@
     opacity: 0;
 }
 
+/* Centramos el paginator */
 .phone-list-paginator--paginator {
+    display: table;
     margin: auto;
-    width: 175px;
+}
+
+.phone-list-paginator--paginator .pagination {
+    margin-bottom: 30px;
 }

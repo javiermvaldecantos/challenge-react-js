@@ -1,3 +1,8 @@
+/**
+ * Lista de modelos de teléfono.
+ * Sólo mostrará los teléfonos de la página en la que estamos (currentPage).
+ * El resto de teléfonos serán ocultados con la clase .hidden
+ */
 import React from 'react';
 import PhoneListElement from './PhoneListElement';
 

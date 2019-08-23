@@ -1,3 +1,8 @@
+/**
+ * Elemento que representa a un modelo de teléfono de la lista.
+ * Se presenta su imagen, nombre y precio.
+ * Al hacer click en el botón de "More info", se abrirá un modal con más información 
+ */
 import React from 'react';
 
 import './PhoneListElement.css';

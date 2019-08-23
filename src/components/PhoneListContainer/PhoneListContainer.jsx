@@ -1,3 +1,9 @@
+/**
+ * PhoneListContainer
+ * 
+ * Este componente engloba la mayor parte de la lógica y cambios en el estado de la aplicación.
+ * Contiene una lista de modelos de teléfono, con paginación, y un spinner que se muestra mientras la lista está cargando.
+ */
 import React, {Component} from 'react';
 import PhoneList from '../PhoneList/PhoneList';
 import PhoneListPaginator from '../PhoneListPaginator/PhoneListPaginator';
